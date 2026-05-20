@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import { createIncident } from "../api/IncidentApi";
 import {
   TextField,
   Button,
