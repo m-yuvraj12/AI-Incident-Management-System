@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Route, Routes } from "react-router-dom";
 // import Sidebar from "./pages/Sidebar";
 import Dashboard from "./pages/Dashboard"; // Import the Dashboard component
 import IncidentList from "./components/IncidentList"; // Import the Incidents component

@@ -37,7 +37,6 @@ const IncidentForm = () => {
     setIsLoading(true);
     e.preventDefault();
     try {
-      const newIncident = await createIncident(formData);
       setIsLoading(false);
       toast.success("🎉 Incident created successfully!");
       navigate("/"); // Redirect to incident list page
